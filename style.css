@@ -4,6 +4,7 @@ body::before{
     height:60px;
 }
 
+
 #map{
 
     width:100%;
@@ -12,8 +13,38 @@ body::before{
 }
 .navbar{
     height:15vh;
-    border-bottom: green 3px solid;
+    
+    border-bottom: green 1px solid;
     color:green;
+}
+.nav-link{
+  color:white;
+  font-weight: 700;
+}
+.nav-item a:hover{
+  background: grey;
+  color:white;
+}
+.nav-item .active{
+  background: black;
+  color:white;
+
+}
+#navmenu{
+  display: block;
+  margin: auto;
+}
+#mainMenu a:hover {
+  text-decoration: none;
+  color: #FFF;
+}
+
+#mainMenu li:hover {
+  background: #000;
+}
+
+#mainMenu .active li {
+  background: #000;
 }
 /* as long as its over */
 @media(min-width:768px){
@@ -28,9 +59,9 @@ body::before{
 .top-wrapper {
   margin-top: 0%;
   width: 100%;
-  margin: auto;
+  
   min-height: 300px;
-  height: 100%;
+  height: 70vh;
   background: grey;
 }
 .navigation{
@@ -38,7 +69,15 @@ body::before{
   background:#49E42D;
   position: relative;
   z-index: 30;
-  height: 30px;
+  height: 40px;
+}
+.card_lime_bg{
+  background:#49E42D;
+
+}
+.team{
+  background:#49E42D;
+
 }
 .nav-item{
   
